@@ -3,9 +3,9 @@
      agent any
 
      stages {
-	 stage('Master Branch') {
+	 stage('Development Branch') {
              steps{
-                sh 'echo "this is master branch"'
+                sh 'echo "this is Development branch"'
               }
        } 
 
