@@ -3,15 +3,15 @@
      agent any
 
      stages {
-	 stage('Master Branch') {
+	 stage('Sprint1 Branch') {
              steps{
-                sh 'echo "this is master branch"'
+                sh 'echo "this is Sprint1 branch"'
               }
        } 
 
         stage('sprint1') {
 	    steps {
-               sh 'echo "sprint1 application..."'
+               sh 'echo "test application..."'
 	    }
 	}
 	
